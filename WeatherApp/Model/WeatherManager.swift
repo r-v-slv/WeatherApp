@@ -29,7 +29,7 @@ struct WeatherManager{
             let task = session.dataTask(with: url) { data, response, error in
                 if error != nil{
                     print(error!)
-                    return
+                    return 
                 }
                 if let safeData = data {
                     parseJSON(weatherData: safeData)
