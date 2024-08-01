@@ -5,6 +5,7 @@
 //  Created by SLV on 21.07.2024.
 //
 
+
 import Foundation
 
 struct WeatherManager{
@@ -18,8 +19,6 @@ struct WeatherManager{
         performRequest(urlString: urlString)
     }
     
-    
-
 
     
     //MARK: - Perfom request
