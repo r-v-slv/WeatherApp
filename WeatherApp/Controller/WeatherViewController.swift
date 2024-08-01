@@ -14,7 +14,7 @@ class WeatherViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var temperatureLabel: UILabel!
     @IBOutlet weak var cityLabel: UILabel!
     @IBOutlet weak var searchTextField: UITextField!
-    @IBOutlet weak var appId: UITextField!
+
     
     let weatherManager = WeatherManager()
     
@@ -53,9 +53,8 @@ class WeatherViewController: UIViewController, UITextFieldDelegate {
         
         
         if let city = searchTextField.text {
-            guard let appid = appId.text else { return }
-            weatherManager.fetchWeather(cityName: city, appId: appid)
-        }
+            weatherManager.fetchWeather(cityName: city)
+        } else { return }
 
         
         searchTextField.text = ""
