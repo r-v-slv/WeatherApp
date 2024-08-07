@@ -14,7 +14,7 @@ struct WeatherManager{
  
    // MARK: - Fetch city to URL
     func fetchWeather (cityName: String)  {
-        let urlString = "\(weatherURL)&\(av)&q=\(cityName)"
+        let urlString = "\(weatherURL)&appid=\(appId)&q=\(cityName)"
         print(urlString)
         performRequest(urlString: urlString)
     }
