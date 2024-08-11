@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27008FD52C696506001613D7 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27008FD42C696506001613D7 /* WeatherModel.swift */; };
 		270558B12C4D906C00CDFF7D /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270558B02C4D906C00CDFF7D /* WeatherManager.swift */; };
 		270558B32C4DBDAE00CDFF7D /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270558B22C4DBDAE00CDFF7D /* WeatherDataModel.swift */; };
 		27089BB72C6416D200BB1981 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27089BB62C6416D200BB1981 /* API.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27008FD42C696506001613D7 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 		270558B02C4D906C00CDFF7D /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 		270558B22C4DBDAE00CDFF7D /* WeatherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
 		27089BB62C6416D200BB1981 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			children = (
 				270558B02C4D906C00CDFF7D /* WeatherManager.swift */,
 				270558B22C4DBDAE00CDFF7D /* WeatherDataModel.swift */,
+				27008FD42C696506001613D7 /* WeatherModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				27C743182C3D8DA000CF8B39 /* WeatherViewController.swift in Sources */,
 				270558B32C4DBDAE00CDFF7D /* WeatherDataModel.swift in Sources */,
 				27C743142C3D8DA000CF8B39 /* AppDelegate.swift in Sources */,
+				27008FD52C696506001613D7 /* WeatherModel.swift in Sources */,
 				270558B12C4D906C00CDFF7D /* WeatherManager.swift in Sources */,
 				27089BB72C6416D200BB1981 /* API.swift in Sources */,
 				27C743162C3D8DA000CF8B39 /* SceneDelegate.swift in Sources */,
