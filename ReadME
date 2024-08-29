@@ -4,3 +4,11 @@ In this app I use Api calls to get weather data and present it to user interface
 
 For the moment I work to update the App in order to get User location by default
 In case if user didn`t allowed permision to app to get location, it could be obtained by clicking on GeoLocationButton
+
+
+#  eShop + Firebase
+
+>>>  Create an online shop using SwiftUI and FireBase
+
+#  MainView
+![eShop- DetailedView](https://github.com/r-v-slv/eShop-FireBase-/blob/main/eShop%20(FireBase)/Images(for%20ReadME)/MainView.png)
