@@ -17,6 +17,7 @@
 		27C7431B2C3D8DA000CF8B39 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 27C7431A2C3D8DA000CF8B39 /* Base */; };
 		27C7431D2C3D8DA200CF8B39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C7431C2C3D8DA200CF8B39 /* Assets.xcassets */; };
 		27C743202C3D8DA200CF8B39 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 27C7431F2C3D8DA200CF8B39 /* Base */; };
+		27EC4CAB2C8106D3009EAE84 /* Read ME.txt in Resources */ = {isa = PBXBuildFile; fileRef = 27EC4CAA2C8106D3009EAE84 /* Read ME.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		27C7431C2C3D8DA200CF8B39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27C7431F2C3D8DA200CF8B39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27C743212C3D8DA200CF8B39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27EC4CAA2C8106D3009EAE84 /* Read ME.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Read ME.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				27C7431E2C3D8DA200CF8B39 /* LaunchScreen.storyboard */,
 				27C743212C3D8DA200CF8B39 /* Info.plist */,
 				27089BB52C6416C100BB1981 /* API */,
+				27EC4CAA2C8106D3009EAE84 /* Read ME.txt */,
 			);
 			path = WeatherApp;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				27C7431D2C3D8DA200CF8B39 /* Assets.xcassets in Resources */,
 				27C743202C3D8DA200CF8B39 /* Base in Resources */,
 				27C7431B2C3D8DA000CF8B39 /* Base in Resources */,
+				27EC4CAB2C8106D3009EAE84 /* Read ME.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
